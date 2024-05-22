@@ -1,0 +1,112 @@
+.customer-review {
+    background-image: url("images/review-background.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 130px 10% 100px 10%;
+    margin: 10% auto;
+}
+
+.customer-review h2 {
+    font-family: "josefin sans", sans-serif;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+.customer-review > p {
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+}
+
+.customer-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.customer-detail-text h3 {
+    margin: 0;
+}
+
+.customer-detail-text p {
+    margin-top: 0;
+}
+
+.video {
+    background-image: url("images/video-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 190px 0;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.video h3 {
+    font-family: "josefin sans", sans-serif;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.pictures {
+    display: flex;
+}
+
+.pictures img {
+    display: block;
+    width: 20%;
+}
+
+@media screen  and (max-width:960px){
+    .customer-review h2 {
+        font-size: 2.5em;
+    }
+    .customer-review > p {
+        font-size: 1.2em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .customer-review {
+        padding-top: 90px;
+        padding-bottom: 70px;
+    }
+    .video {
+        padding: 100px 0;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:615px){
+    .customer-review h2 {
+        font-size: 2em;
+    }
+    .customer-review > p {
+        font-size: 1em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .customer-review {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .video h3 {
+        font-size: 1.5em;
+    }
+    .video {
+        background-size: cover;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 70px;
+        border-radius: 8px;
+    }
+    .pictures .three, .pictures .four, .pictures .five {
+        display: none;
+    }
+    .pictures .one, .pictures .two {
+        width: 50%;
+    }
+}

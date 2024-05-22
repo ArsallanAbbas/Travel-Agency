@@ -1,0 +1,81 @@
+.hero-text {
+    margin: auto;
+    text-align: center;
+    color: #000953;
+}
+
+.hero-text h1 {
+    font-size: 3.75rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    font-family: "josefin sans", sans-serif;
+}
+
+.hero-text span {
+    display: inline-block;
+    background: linear-gradient(white 65%, #FFCA3D 65% 85%, white 85%);
+}
+
+.hero-text p {
+    font-size: 1.25em;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.hero-text button {
+    line-height: 70px;
+    background-color: #000953;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    width: 270px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text button:hover {
+    background-color: #FFCA3D;
+}
+
+.hero-image img {
+    display: block;
+    margin: auto;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    width: 60%;
+}
+
+.hero-image {
+    background-image: url(images/car-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -5%;
+}
+
+@media screen and (max-width: 960px){
+    .hero-text h1 {
+        padding-top: 0;
+        font-size: 2.5rem;
+    }
+    .hero-text button {
+        width: 200px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 615px){
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+    .hero-text p {
+        font-size: 1rem;
+    }
+    .hero-image {
+        margin-top: 0;
+    }
+}
